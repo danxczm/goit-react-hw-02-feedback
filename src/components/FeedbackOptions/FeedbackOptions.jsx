@@ -10,7 +10,6 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           key={index}
           type="button"
           onClick={() => onLeaveFeedback(option)}
-          role="button"
         >
           {option}
         </button>
