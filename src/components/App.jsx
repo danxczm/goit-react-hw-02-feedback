@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Section } from './Section/Section.jsx';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions.jsx';
 import { Statistics } from './Statistics/Statistics.jsx';
@@ -28,8 +28,6 @@ export class App extends Component {
   };
 
   render() {
-    // const { good, neutral, bad } = this.state;
-
     return (
       <>
         <Section title={'Please leave feedback'}>
